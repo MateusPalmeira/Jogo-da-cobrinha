@@ -1,27 +1,35 @@
-# 🐍 Jogo da Cobrinha em Python
+# 🐍 Jogo da Cobrinha (Snake Game) - Python + Pygame
 
-Este é um jogo simples da cobrinha desenvolvido em Python utilizando a biblioteca Pygame. O objetivo é coletar o máximo de comida possível sem colidir com as bordas ou com o próprio corpo da cobrinha.
+Este é o projeto do Dia 1 do meu desafio pessoal **"1 jogo por dia durante 7 dias"**. O clássico **Jogo da Cobrinha**, recriado em Python com a biblioteca Pygame.
 
-## 🚀 Funcionalidades
+## 🎮 Funcionalidades
 
-- Movimentação fluida da cobrinha com as setas do teclado
-- Geração aleatória de comida para a cobrinha crescer
-- Aumento de velocidade a cada 5 pontos
-- Pontuação exibida na tela
-- Efeitos sonoros ao coletar comida
-- Skins coloridas aleatórias para a cobrinha
-- Tela inicial com botão "Iniciar"
-- Ranking com sistema de recorde
+- ✅ Movimentação com teclas direcionais
+- 🍎 Geração aleatória de comida
+- 🐍 Crescimento da cobrinha ao comer
+- ⚡ Aumento de velocidade a cada 5 pontos
+- 💥 Colisão com corpo ou paredes = game over
+- 🧠 Ranking de pontuação
+- 🎵 Efeitos sonoros
+- 🎨 Skins coloridas aleatórias para a cobrinha
+- 🖱️ Tela de início com botão "Iniciar"
 
-## 🛠️ Pré-requisitos
+## 🧱 Estrutura do Código
+
+O código está dividido em módulos claros e comentados para facilitar o aprendizado:
+
+- `main.py` - ponto de entrada do jogo
+- `snake.py` - lógica da cobrinha
+- `food.py` - lógica dos alimentos
+- `button.py` - botão da tela inicial
+- `utils.py` - funções auxiliares
+
+## 💾 Requisitos
 
 - Python 3.x
-- Biblioteca Pygame
+- Biblioteca `pygame`
 
-## 💻 Instalação
+### Instale com:
 
-1. Clone o repositório:
-
-   ```bash
-   git clone https://github.com/MateusPalmeira/Jogo-da-cobrinha.git
-   cd Jogo-da-cobrinha
+```bash
+pip install pygame
